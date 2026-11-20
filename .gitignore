@@ -1,0 +1,42 @@
+# ---------- Secrets (never upload these) ----------
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+
+# ---------- OS files ----------
+.DS_Store
+Thumbs.db
+
+# ---------- Editors / IDEs ----------
+.vscode/
+.idea/
+*.swp
+
+# ---------- Logs ----------
+*.log
+npm-debug.log*
+
+# ---------- Python ----------
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# ---------- JavaScript / Node / React ----------
+node_modules/
+.next/
+
+# ---------- Java ----------
+*.class
+target/
+
+# ---------- C / C++ ----------
+*.o
+*.exe
+
+# ---------- Build output ----------
+dist/
+build/
